@@ -1,0 +1,52 @@
+/*reseta boxes*/
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  :root {
+    --bg-size: 1020px;
+  }
+  
+  @media (max-width: 375px) {
+    :root {
+      --bg-size: 320px;
+    }
+  }
+  body{
+    background-color: #FBE7C6;
+  }
+  main {
+    width: 1440px;
+    height: 1024px;
+    background-color: #FBE7C6;
+  }
+
+  header{
+    margin-top: 51px;
+    background-color: #FBE7C6;
+    height: 48px;
+    display: flex;
+    margin-bottom: 55px;
+  }
+  .logo{
+    height: 48px;
+    width: 120px;
+  }
+
+  .titlePage h1 {
+    font-family: "Itim", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #FFAEBC;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .inputTexto input{
+    width: 480px;
+    height: 365px;
+    margin-left: 74px;
+    border-radius: 12px;
+    border-solid
+  }
