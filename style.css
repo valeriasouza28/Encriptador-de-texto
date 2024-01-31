@@ -1,0 +1,174 @@
+/*reseta boxes*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg-size: 1020px;
+}
+
+@media (max-width: 375px) {
+    :root {
+        --bg-size: 320px;
+    }
+}
+body {
+    background-color: #fbe7c6;
+    /* display: flex; */
+}
+main {
+    width: 1440px;
+    height: 1024px;
+    background-color: #fbe7c6;
+    /* display: flex; */
+}
+
+header {
+    margin-top: 51px;
+    background-color: #fbe7c6;
+    height: 48px;
+    display: flex;
+    margin-bottom: 55px;
+}
+.logo {
+    height: 48px;
+    width: 120px;
+}
+
+.titlePage h1 {
+    font-family: "Itim", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #ffaebc;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputTexto input {
+    width: 480px;
+    height: 365px;
+    /* margin-left: 34px; */
+    border-radius: 12px;
+    border-solid: 1px;
+    border-color: rgb(28, 29, 32);
+    /* margin-left: 73px; */
+    margin-bottom: 50px;
+    color: #ffaebc;
+}
+
+.inputMain {
+    margin-left: 54px;
+}
+
+.msgInputType {
+    display: flex;
+    /* margin-left: 54px; */
+    gap: 8px;
+}
+
+.inputButtons {
+    display: flex;
+    width: 198px;
+    height: 67px;
+    margim-top: 73px;
+    margin-left: 20px;
+}
+
+.descripitografar button {
+    width: 328px;
+    height: 68px;
+    background-color: #ffaebc;
+    border: none;
+    border-radius: 24px;
+    color: #0a3871;
+    font-family: Inter;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 73px;
+}
+
+.cripitografar button {
+    width: 328px;
+    height: 68px;
+    background-color: #ffaebc;
+    border: none;
+    border-radius: 24px;
+    color: #0a3871;
+    font-family: Inter;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 73px;
+    margin-right: 34px;
+}
+
+.leftView {
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    margin-left: 43px;
+}
+.rightView {
+    /* margin-bottom: 73px;
+  margin-right: 307px; */
+    width: 507px;
+    height: 944px;
+    /* flex-shrink: 0; */
+    margin-left: 207px;
+    margin-right: 68px;
+    background-color: white;
+    width: 507px;
+    height: 944px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 22px;
+}
+
+.rightViewItems {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ilustration img {
+    align-items: center;
+    width: 336px;
+    height: 304px;
+    margin-top: 219px;
+    margin-left: 82px;
+    /* margin-right: 82px; */
+}
+
+.textsRightView {
+    align-items: center;
+    justify-content: center;
+    margin-top: 23px;
+    display: flex;
+}
+
+.msgNotFound {
+    width: 484px;
+    text-align: center;
+    height: 32px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.msgInputText {
+    text-align: center;
+    height: 24Spx;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.content {
+    display: flex;
+}

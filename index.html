@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&family=Inter&family=Roboto&family=Roboto+Condensed:wght@700&family=Titillium+Web:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Encipitador de texto</title>
+<body>
+    <div class="bodyMain">
+        <main>
+            <header>
+                <div class="logo">
+                    <img src="assets/logo.svg" alt="logo-da-alura"/>
+                </div>
+                <div class="titlePage">
+                    <h1>Encriptador de texto</h1>
+                </div>
+            </header>
+            <div class="content">
+                <div class="leftView">
+                    <div class="inputMain">
+
+                        <div class="inputTexto">
+                            <input class="inputUser"type="text" placeholder="Digite seu texto"/>
+                        </div>
+                        <div class="msgInputType">
+                            <img src="/assets/warningInput.svg" alt="icone-aviso-exclamação">
+                            <p>
+                                Apenas letras minúsculas e sem acento.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="inputButtons">
+                        <div class="cripitografar">
+                            <button type="submit">Cripitografar</button>
+                        </div>
+                        <div class="descripitografar">
+                            <button type="submit">Descripitografar</button>
+                        </div>
+                    </div>
+
+                </div>
+                
+    
+                <div class="rightView">
+                    <div class="rightViewItems">
+
+                        <div class="ilustration">
+                            <img src="assets/ilustrationLeftView.png" alt="menina-ajoelhada-com-uma-lupa"/>
+                        </div>
+                            <div class="textsRightView">
+                                <p class="msgNotFound">Nenhuma mensagem encontrada</p>
+                                <p class="msgInputText">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                            </div>
+            
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+        </main>
+    </div> 
+    
+
+    <script src="app.js" defer></script>
+</body>
+</html>
