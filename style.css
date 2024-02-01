@@ -21,15 +21,26 @@ main {
     width: 1440px;
     height: 1024px;
     background-color: #fbe7c6;
+    align-items: center;
+    justify-content: center;
     /* display: flex; */
 }
 
+.bodyMain {
+    width: 1388px;
+    height: 972px;
+    background-color: aqua;
+    gap: 26px;
+    
+}
+
 header {
-    margin-top: 51px;
     background-color: #fbe7c6;
-    height: 48px;
+    height: 71px;
+    width: 564px;
     display: flex;
-    margin-bottom: 55px;
+    align-items: start;
+    
 }
 .logo {
     height: 48px;
@@ -53,12 +64,12 @@ header {
     border-solid: 1px;
     border-color: rgb(28, 29, 32);
     /* margin-left: 73px; */
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     color: #ffaebc;
 }
 
 .inputMain {
-    margin-left: 54px;
+    /* margin-left: 54px; */
 }
 
 .msgInputType {
@@ -71,9 +82,9 @@ header {
     display: flex;
     width: 198px;
     height: 67px;
-    margim-top: 73px;
+   /*  margim-top: 73px;
     margin-left: 20px;
-}
+} */
 
 .descripitografar button {
     width: 328px;
@@ -89,7 +100,7 @@ header {
     text-align: center;
     align-items: center;
     justify-content: center;
-    margin-top: 73px;
+    /* margin-top: 73px; */
 }
 
 .cripitografar button {
@@ -106,13 +117,15 @@ header {
     text-align: center;
     align-items: center;
     justify-content: center;
-    margin-top: 73px;
-    margin-right: 34px;
+    /* margin-top: 73px;
+    margin-right: 34px; */
 }
 
 .leftView {
-    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
-    margin-left: 43px;
+    width: 834px;
+    height: 952px;
+    align-items: flex-start;
+    justify-content: ;
 }
 .rightView {
     /* margin-bottom: 73px;
@@ -120,8 +133,8 @@ header {
     width: 507px;
     height: 944px;
     /* flex-shrink: 0; */
-    margin-left: 207px;
-    margin-right: 68px;
+    /* margin-left: 207px;
+    margin-right: 68px; */
     background-color: white;
     width: 507px;
     height: 944px;
